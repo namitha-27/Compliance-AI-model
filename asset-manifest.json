@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Compliance-AI-model/static/css/main.e6c13ad2.css",
+    "main.js": "/Compliance-AI-model/static/js/main.987b1af7.js",
+    "static/js/453.419a5d54.chunk.js": "/Compliance-AI-model/static/js/453.419a5d54.chunk.js",
+    "index.html": "/Compliance-AI-model/index.html",
+    "main.e6c13ad2.css.map": "/Compliance-AI-model/static/css/main.e6c13ad2.css.map",
+    "main.987b1af7.js.map": "/Compliance-AI-model/static/js/main.987b1af7.js.map",
+    "453.419a5d54.chunk.js.map": "/Compliance-AI-model/static/js/453.419a5d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.987b1af7.js"
+  ]
+}
