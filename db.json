@@ -1,0 +1,110 @@
+{
+    "models": [
+      { "id": 1, "model_name": "AI Model 1", "compliance_status": "Compliant", "score": 100 },
+      { "id": 2, "model_name": "AI Model 2", "compliance_status": "Non-Compliant", "score": 30 },
+      { "id": 3, "model_name": "AI Model 3", "compliance_status": "Pending", "score": "Not evaluated" },
+      { "id": 4, "model_name": "AI Model 4", "compliance_status": "Compliant", "score": 100 },
+      { "id": 5, "model_name": "AI Model 5", "compliance_status": "Under Review", "score": "Under review" },
+      { "id": 6, "model_name": "AI Model 6", "compliance_status": "Compliant", "score": 100 }
+    ],
+    "compliance-reports": [
+      {
+        "modelId": 1,
+        "compliance_status": "Compliant",
+        "data_usage": "Fully evaluated",
+        "discrimination_check": "No issues",
+        "proportionality_check": "Balanced",
+        "evaluation_criteria": [
+          "Data Context Relevance",
+          "Non-Discrimination",
+          "Proportional Treatment"
+        ],
+        "score_details": {
+          "data_context_relevance": 30,
+          "no_cross_context_treatment": 35,
+          "no_unjustified_treatment": 35,
+          "total_score": 100
+        },
+        "scenario_violations": "None"
+      },
+      {
+        "modelId": 2,
+        "compliance_status": "Non-Compliant",
+        "data_usage": "Limited",
+        "discrimination_check": "Discriminatory",
+        "proportionality_check": "Not evaluated yet",
+        "evaluation_criteria": [
+          "Data Context Relevance",
+          "Non-Discrimination",
+          "Proportional Treatment"
+        ],
+        "score_details": {
+          "data_context_relevance": 0,
+          "no_cross_context_treatment": 15,
+          "no_unjustified_treatment": 15,
+          "total_score": 30
+        },
+        "scenario_violations": [
+          "Cross-context detrimental treatment detected",
+          "Discriminatory patterns identified"
+        ]
+      },
+      {
+        "modelId": 3,
+        "compliance_status": "Pending",
+        "data_usage": "Not evaluated yet",
+        "discrimination_check": "Not evaluated yet",
+        "proportionality_check": "Not evaluated yet",
+        "evaluation_criteria": [
+          "Data Context Relevance",
+          "Non-Discrimination"
+        ],
+        "score_details": {
+          "data_context_relevance": "Not evaluated",
+          "no_cross_context_treatment": "Not evaluated",
+          "no_unjustified_treatment": "Not evaluated",
+          "total_score": "Not evaluated"
+        },
+        "scenario_violations": "Evaluation incomplete"
+      },
+      {
+        "modelId": 4,
+        "compliance_status": "Compliant",
+        "data_usage": "Comprehensive",
+        "discrimination_check": "No discriminatory patterns",
+        "proportionality_check": "Appropriate distribution",
+        "evaluation_criteria": [
+          "Data Context Relevance",
+          "Fairness",
+          "Transparency"
+        ],
+        "score_details": {
+          "data_context_relevance": 30,
+          "no_cross_context_treatment": 35,
+          "no_unjustified_treatment": 35,
+          "total_score": 100
+        },
+        "scenario_violations": "None"
+      },
+      {
+        "modelId": 5,
+        "compliance_status": "Under Review",
+        "data_usage": "Ongoing review",
+        "discrimination_check": "Under review",
+        "proportionality_check": "Under review",
+        "evaluation_criteria": [
+          "Data Context Relevance",
+          "Bias Detection",
+          "Proportional Treatment"
+        ],
+        "score_details": {
+          "data_context_relevance": "Under review",
+          "no_cross_context_treatment": "Under review",
+          "no_unjustified_treatment": "Under review",
+          "total_score": "Under review"
+        },
+        "scenario_violations": "Review in progress"
+      }
+    ]
+  }
+  
